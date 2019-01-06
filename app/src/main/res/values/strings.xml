@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StandFinder</string>
+    <string name="footer">      Alamat Jl. Ring Road Utara, Sanggrahan\n
+                            Condongcatur, Kec. Depok, Kabupaten Sleman\n
+                            Daerah Istimewa Yogyakarta 55281\n\n
+
+                            Jam Kerja :\n
+                            Buka 08.00 - Tutup 22.00\n
+                            Tlp. 0852-6504-2050\n
+                            Info. standFinder@gmail.com\n
+    </string>
+    <string name="tentang">Tentang</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="panduan">Panduan</string>
+</resources>

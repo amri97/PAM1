@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity"
+              android:background="@drawable/bgstand"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.81"></ListView>
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar_bootom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="96dp"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:popupTheme="@style/AppTheme.PopupOverlay"         -->
+        <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:paddingTop="2dp"
+        android:paddingLeft="2dp"
+        android:id="@+id/textView"
+        android:text="@string/footer"
+        android:textSize="9dp"
+        android:textColor="@color/colorTextFooter"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:background="@color/colorPrimary"
+        />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp"
+            android:textColor="@color/colorTextFooter"
+            android:textSize="10dp" />
+    </LinearLayout>
+</LinearLayout>
